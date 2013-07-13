@@ -7,11 +7,11 @@ use Module::Build 0.3601;
 
 my %module_build_args = (
   "build_requires" => {
-    "Carp" => 0,
+    "File::Find" => 0,
+    "File::Temp" => 0,
     "Module::Build" => "0.3601",
-    "Scalar::Util" => 0,
-    "Test::More" => "0.94",
-    "perl" => "5.004"
+    "Test::DZil" => 0,
+    "Test::More" => "0.88"
   },
   "configure_requires" => {
     "Module::Build" => "0.3601"
@@ -21,7 +21,7 @@ my %module_build_args = (
     "Yanick Champoux <yanick\@babyl.dyndns.org>"
   ],
   "dist_name" => "Dist-Zilla-Plugin-CoalescePod",
-  "dist_version" => "0.1.0",
+  "dist_version" => "0.2.0",
   "license" => "perl",
   "module_name" => "Dist::Zilla::Plugin::CoalescePod",
   "recommends" => {},

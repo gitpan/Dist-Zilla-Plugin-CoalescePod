@@ -1,9 +1,8 @@
 NAME
-    Dist::Zilla::Plugin::CoalescePod - merge .pod files into their .pm
-    counterparts
+    Foo - merge .pod files into their .pm counterparts
 
 VERSION
-    version 0.1.0
+    version 0.2.0
 
 SYNOPSIS
         # in dist.ini
