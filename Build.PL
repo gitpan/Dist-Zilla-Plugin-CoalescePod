@@ -21,7 +21,7 @@ my %module_build_args = (
     "Yanick Champoux <yanick\@babyl.dyndns.org>"
   ],
   "dist_name" => "Dist-Zilla-Plugin-CoalescePod",
-  "dist_version" => "0.2.0",
+  "dist_version" => "0.2.1",
   "license" => "perl",
   "module_name" => "Dist::Zilla::Plugin::CoalescePod",
   "recommends" => {},

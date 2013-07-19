@@ -3,7 +3,7 @@ BEGIN {
   $Dist::Zilla::Plugin::CoalescePod::AUTHORITY = 'cpan:YANICK';
 }
 {
-  $Dist::Zilla::Plugin::CoalescePod::VERSION = '0.2.0';
+  $Dist::Zilla::Plugin::CoalescePod::VERSION = '0.2.1';
 }
 # ABSTRACT: merge .pod files into their .pm counterparts
 
@@ -25,7 +25,7 @@ sub munge_file {
     my ( $podfile ) = grep { $_->name eq $podname } 
                            @{ $self->zilla->files } or return;
 
-   $self->log( "merged $podfile into " . $file->name );
+   $self->log( "merged " . $podfile->name . " into " . $file->name );
 
     my @content = split /(^__DATA__$)/m, $file->content;
 
@@ -50,7 +50,7 @@ Foo - merge .pod files into their .pm counterparts
 
 =head1 VERSION
 
-version 0.2.0
+version 0.2.1
 
 =head1 SYNOPSIS
 
