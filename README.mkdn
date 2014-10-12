@@ -4,7 +4,7 @@ Foo - merge .pod files into their .pm counterparts
 
 # VERSION
 
-version 0.2.1
+version 0.2.2
 
 # SYNOPSIS
 
@@ -13,12 +13,13 @@ version 0.2.1
 
 # DESCRIPTION
 
-If the files _Foo.pm_ and _Foo.pod_ both exist, the content of the pod file is
-appended at the end of the `.pm`, and the pod file is removed.
+If the files _Foo.pm_ and _Foo.pod_ both exist, the pod file is removed and
+its content appended to the end of the `.pm` file (or just before a
+`__DATA__` marker if present) 
 
 # AUTHOR
 
-Yanick Champoux <yanick@babyl.dyndns.org> [![endorse](http://api.coderwall.com/yanick/endorsecount.png)](http://coderwall.com/yanick)
+Yanick Champoux <yanick@cpan.org> [![endorse](http://api.coderwall.com/yanick/endorsecount.png)](http://coderwall.com/yanick)
 
 # COPYRIGHT AND LICENSE
 

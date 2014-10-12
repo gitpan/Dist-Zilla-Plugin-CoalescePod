@@ -2,18 +2,19 @@ NAME
     Foo - merge .pod files into their .pm counterparts
 
 VERSION
-    version 0.2.1
+    version 0.2.2
 
 SYNOPSIS
         # in dist.ini
         [CoalescePod]
 
 DESCRIPTION
-    If the files *Foo.pm* and *Foo.pod* both exist, the content of the pod
-    file is appended at the end of the ".pm", and the pod file is removed.
+    If the files *Foo.pm* and *Foo.pod* both exist, the pod file is removed
+    and its content appended to the end of the ".pm" file (or just before a
+    "__DATA__" marker if present)
 
 AUTHOR
-    Yanick Champoux <yanick@babyl.dyndns.org>
+    Yanick Champoux <yanick@cpan.org>
 
 COPYRIGHT AND LICENSE
     This software is copyright (c) 2012 by Yanick Champoux.

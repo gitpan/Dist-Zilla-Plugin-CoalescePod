@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.68.
+signed via the Module::Signature module, version 0.73.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,33 +14,35 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 c5e691464e7ddfdf60e3e2094067bbb6317d750e AUTHOR_PLEDGE
-SHA1 78a34ae4f05734547b89159441a650469acdaf87 Build.PL
-SHA1 9f7d54b3f422064b03c4c233db017b540a02f743 CONTRIBUTORS
-SHA1 b7da0ef7538391879a51657d35f2e7b713916996 Changes
+SHA1 0326cc37319edb532b3de17ef63d07ec383e16ff AUTHOR_PLEDGE
+SHA1 a1315145b899445b163ae6fc9b08cf38c3ad090d Build.PL
+SHA1 e072b110af86444e5c07cce2e5d39ec59cba37e6 CONTRIBUTORS
+SHA1 92c49eb644b56182853b6539b73066acb1b34210 Changes
 SHA1 a9ac635baa0915de9aa6c45d32a687417d31f3e7 INSTALL
-SHA1 42a9b278ca94a31df654fec186efe74ba9565d7e LICENSE
-SHA1 a1b0965bdf6df40a4b22e4aaefaa7a51cf096a5c MANIFEST
+SHA1 4635555632db4eb10b992acc94a499271d2044ef LICENSE
+SHA1 4f7634d07d82e8dd590b8b13831cfa040f8ed975 MANIFEST
 SHA1 5748353dcf3505fb61a257febb1ca5a61a85bfe8 MANIFEST.SKIP
-SHA1 81de52a6af8a8fc0b488abacd7a264aebeb086a7 META.json
-SHA1 0c4b6fdae18d638fcd94967e8c5e3d4626f83d98 META.yml
-SHA1 75b92eb9a3cbc7fe6cedb53e51cbfc58d6be1478 README
-SHA1 85858fb876f885a840eaa548367899b4ca41bfbf README.mkdn
-SHA1 d50962f8400d8b5db035897d726a742de5cadf1d dist.ini
-SHA1 d68c6f32a33ffc202429c81a568da903a233668a lib/Dist/Zilla/Plugin/CoalescePod.pm
-SHA1 3cbe905b92fbc69d59a06031d5ce6c837b352aa2 t/00-compile.t
-SHA1 e13b92f668e64a58750cc0dedb15a338310c9651 t/000-report-versions-tiny.t
+SHA1 3bee77db8db2a8d944c6cd9982c8ca2421fa270e META.json
+SHA1 0721124ae4248fae418ad74cb067695637cfcb96 META.yml
+SHA1 ba78ff45e5d76455401a7fff9c6703272bd42cf0 README
+SHA1 4eeb2c4bdf2a5998af34be1061ce603f62c4d7ef README.mkdn
+SHA1 121f3ce18ac006f689aa5c61ff3cae9b8fd4ed83 cpanfile
+SHA1 483de8848e6de02f7b8cf3bb65c249c6b98a6f0d dist.ini
+SHA1 3172d1963c475ec0cbcb7c99b900d381376b3d3b doap.xml
+SHA1 b3f59907f6902fbde7fb9fe36e33e4ebff04a6e0 lib/Dist/Zilla/Plugin/CoalescePod.pm
+SHA1 a35e8fbfece6ad641b2f7b9c5692431beb4eba5c t/00-compile.t
+SHA1 dfdce5e4c35e04c96c847489ccf3500a1174657d t/000-report-versions-tiny.t
 SHA1 6f43d413e531fbbd5da5b48699236b41fbaf2b46 t/basic.t
 SHA1 8c3761ba0c2dcf4fd4e2fa19a01dfc01241b1d0a t/corpus/dist.ini
 SHA1 6223ac31d5ab11e5856de521f3a2c6b20aa7b555 t/corpus/lib/Data.pm
 SHA1 d3b1ea5297e740120e5e1983b12cf2558bf34876 t/corpus/lib/Data.pod
 SHA1 45d18c683c61cde003a5293ce71e1bb9f7e788e0 t/corpus/lib/Foo.pm
 SHA1 80b603970fa7f9c9d4c0bcd0aab4012fec3c1e91 t/corpus/lib/Foo.pod
-SHA1 ec3f84bfd7a9ce3246e7592f4134100c6b5ce02b xt/release/unused-vars.t
+SHA1 d1fe7d94b3edc7847eb187d4ee41f66e19cf8907 xt/release/unused-vars.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.11 (GNU/Linux)
+Version: GnuPG v1
 
-iEYEARECAAYFAlHohr8ACgkQ34Hwf+GwC4wZXgCdESA7jA6q32GnRJEX/ypDn6dT
-pz8AoMOvutj2Nr7KQb5NZnailLcmuadu
-=VX/h
+iEYEARECAAYFAlQ6mu4ACgkQ34Hwf+GwC4w3XACg8TQicYkp4VtDN/mLNkSrDSM3
+cTgAoOhOzc1uN7bVFs3R/OXZKeym/t1A
+=3oNB
 -----END PGP SIGNATURE-----

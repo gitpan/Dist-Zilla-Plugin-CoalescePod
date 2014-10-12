@@ -2,11 +2,8 @@ package Dist::Zilla::Plugin::CoalescePod;
 BEGIN {
   $Dist::Zilla::Plugin::CoalescePod::AUTHORITY = 'cpan:YANICK';
 }
-{
-  $Dist::Zilla::Plugin::CoalescePod::VERSION = '0.2.1';
-}
 # ABSTRACT: merge .pod files into their .pm counterparts
-
+$Dist::Zilla::Plugin::CoalescePod::VERSION = '0.2.2';
 use strict;
 use warnings;
 
@@ -44,13 +41,15 @@ __END__
 
 =pod
 
+=encoding UTF-8
+
 =head1 NAME
 
 Foo - merge .pod files into their .pm counterparts
 
 =head1 VERSION
 
-version 0.2.1
+version 0.2.2
 
 =head1 SYNOPSIS
 
@@ -59,12 +58,13 @@ version 0.2.1
 
 =head1 DESCRIPTION
 
-If the files I<Foo.pm> and I<Foo.pod> both exist, the content of the pod file is
-appended at the end of the C<.pm>, and the pod file is removed.
+If the files I<Foo.pm> and I<Foo.pod> both exist, the pod file is removed and
+its content appended to the end of the C<.pm> file (or just before a
+C<__DATA__> marker if present) 
 
 =head1 AUTHOR
 
-Yanick Champoux <yanick@babyl.dyndns.org>
+Yanick Champoux <yanick@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
